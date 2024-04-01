@@ -31,19 +31,19 @@ Na Tabela 1, tem-se o cronograma planejado para todas as etapas de entrega.
 <p align="center"><b>Tabela 02</b> - Planejamento do cronograma etapa 1 - Planejamento do Projeto e RichPicture</p>
  
 
-| *Atividade*                              | *Início*     | *Fim*        | *Responsáveis*                                  | *Revisores*                                            | *Periodo de Revisão*              |
-|------------------------------------------|--------------|--------------|-------------------------------------------------|--------------------------------------------------------|-----------------------------------|
-| Escolha do app a ser trabalhado            | 27/03/2024 | 28/03/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi  | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi       | 28/03/2024 - 31/03/2024           |
-| Heatmap dos membros                        | 20/03/2024 | 22/03/2024 | Kallyne                                           | Leonardo, Guilherme, Kauan, Lucas, Davi                | 22/03/2024 - 31/03/2024           |
-| Análises de aplicativos para o trabalho    | 20/03/2024 | 28/03/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi  | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi       | 28/03/2024 - 31/03/2024           |
-| Introduzir o aplicativo selecionado        | 28/03/2024 | 29/03/2024 | Kauan                                             | Davi                                                   | 29/03/2024 - 31/03/2024           |
-| Definição do Cronograma                    | 28/03/2024 | 31/03/2024 | Kallyne, Leonardo, Davi                           | Guilherme, Kauan, Lucas                                | 31/03/2024                        |
-| Configuração GitPages                      | 28/03/2024 | 29/03/2024 | Kauan                                             | Kallyne                                                | 29/03/2024 - 31/03/2024           |
-| Confecção ata das reuniões                 | 29/03/2024 | 31/03/2024 | Leonardo                                          | Kallyne                                                | 31/03/2024                        |
-| Definição de ferramentas                   | 27/03/2024 | 28/03/2024 | Guilherme                                         | Lucas                                                  | 28/03/2024 - 31/03/2024           |
-| Confecção a RichPicture do aplicativo      | 28/03/2024 | 31/03/2024 | Lucas                                             | ---                                                    | 31/03/2024                        |
-| Correção após a Entrega 1                  | 02/04/2024 | 05/04/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi  | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi       | 05/04/2024 - 06/04/2024           |
-| Gravação da apresentação                   | 31/03/2024 | 01/04/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi  | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi       | 01/04/2024                        |
+| *Atividade*                              | *Início*     | *Fim*        | *Responsáveis*                                  | *Revisores*                                            | *Periodo de Revisão*    |
+|------------------------------------------|--------------|--------------|-------------------------------------------------|--------------------------------------------------------|-------------------------|
+| Escolha do app a ser trabalhado            | 27/03/2024 | 28/03/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi  | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi       | 28/03/2024 - 31/03/2024 |
+| Heatmap dos membros                        | 20/03/2024 | 22/03/2024 | Kallyne                                           | Leonardo, Guilherme, Kauan, Lucas, Davi                | 22/03/2024 - 31/03/2024 |
+| Análises de aplicativos para o trabalho    | 20/03/2024 | 28/03/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi  | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi       | 28/03/2024 - 31/03/2024 |
+| Introduzir o aplicativo selecionado        | 28/03/2024 | 29/03/2024 | Kauan                                             | Davi                                                   | 29/03/2024 - 31/03/2024 |
+| Definição do Cronograma                    | 28/03/2024 | 31/03/2024 | Kallyne, Leonardo, Davi                           | Guilherme, Kauan, Lucas                                | 31/03/2024              |
+| Configuração GitPages                      | 28/03/2024 | 29/03/2024 | Kauan                                             | Kallyne                                                | 29/03/2024 - 31/03/2024 |
+| Confecção ata das reuniões                 | 29/03/2024 | 31/03/2024 | Leonardo                                          | Kallyne                                                | 31/03/2024              |
+| Definição de ferramentas                   | 27/03/2024 | 28/03/2024 | Guilherme                                         | Lucas                                                  | 28/03/2024 - 31/03/2024 |
+| Confecção a RichPicture do aplicativo      | 28/03/2024 | 31/03/2024 | Lucas                                             | ---                                                    | 31/03/2024              |
+| Correção após a Entrega 1                  | 02/04/2024 | 05/04/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi  | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi       | 05/04/2024 - 06/04/2024 |
+| Gravação da apresentação                   | 31/03/2024 | 01/04/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi  | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi       | 01/04/2024              |
 
 <font size="3">Fonte: [Kallyne Macêdo](https://github.com/kalipassos), [Davi Pierre](https://github.com/DaviPierre).</font> </center>
 
@@ -52,16 +52,16 @@ Na Tabela 1, tem-se o cronograma planejado para todas as etapas de entrega.
 
 <center> <b>Tabela 04</b> - Planejamento da etapa 2 - Elicitação de Requisitos </p>
 
-| *Atividade*                                        | *Início*   | *Fim*      | *Responsáveis*                                   | *Revisores*                                      | *Periodo de Revisão*              |
-|----------------------------------------------------|------------|------------|--------------------------------------------------|--------------------------------------------------|-----------------------------------|
-| Correções pós entrega 1                            | 02/04/2024 | 05/04/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | 05/04/2024 - 16/04/2024           |
-| Definição do perfil do usuário                     | 02/04/2024 | 05/04/2024 | Leonardo, Lucas                                  | Kallyne, Guilherme, Kauan, Davi                  | 05/04/2024 - 16/04/2024           |
-| Levantamento e definição de técnicas de elicitação | 04/04/2024 | 08/04/2024 | Kallyne, Kauan                                   | Leonardo, Guilherme, Lucas, Davi                 | 08/04/2024 - 16/04/2024           |
-| Levantamento e definição de técnicas de priorização| 04/04/2024 | 08/04/2024 | Davi e Guilherme                                 | Kallyne, Leonardo, Kauan, Lucas                  | 08/04/2024 - 16/04/2024           |
-| Definição e criação de personas                    | 08/04/2024 | 12/04/2024 | Leonardo e Kallyne                               | Guilherme, Kauan, Lucas, Davi                    | 12/04/2024 - 16/04/2024           |
-| Aplicação das técnicas de elicitação escolhidas    | 08/04/2024 | 12/04/2024 | Guilherme e Kauan                                | Leonardo, Guilherme, Lucas, Davi                 | 12/04/2024 - 16/04/2024           |
-| Aplicação das técnicas de priorização escolhidas   | 08/04/2024 | 12/04/2024 | Davi e Lucas                                     | Kallyne, Leonardo, Guilherme, Kauan              | 12/04/2024 - 16/04/2024           |
-| Ajustes finais da entrega 2                        | 12/04/2024 | 16/04/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | 16/04/2024                        |
+| *Atividade*                                        | *Início*   | *Fim*      | *Responsáveis*                                   | *Revisores*                                      | *Periodo de Revisão*    |
+|----------------------------------------------------|------------|------------|--------------------------------------------------|--------------------------------------------------|-------------------------|
+| Correções pós entrega 1                            | 02/04/2024 | 05/04/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | 05/04/2024 - 16/04/2024 |
+| Definição do perfil do usuário                     | 02/04/2024 | 05/04/2024 | Leonardo, Lucas                                  | Kallyne, Guilherme, Kauan, Davi                  | 05/04/2024 - 16/04/2024 |
+| Levantamento e definição de técnicas de elicitação | 04/04/2024 | 08/04/2024 | Kallyne, Kauan                                   | Leonardo, Guilherme, Lucas, Davi                 | 08/04/2024 - 16/04/2024 |
+| Levantamento e definição de técnicas de priorização| 04/04/2024 | 08/04/2024 | Davi e Guilherme                                 | Kallyne, Leonardo, Kauan, Lucas                  | 08/04/2024 - 16/04/2024 |
+| Definição e criação de personas                    | 08/04/2024 | 12/04/2024 | Leonardo e Kallyne                               | Guilherme, Kauan, Lucas, Davi                    | 12/04/2024 - 16/04/2024 |
+| Aplicação das técnicas de elicitação escolhidas    | 08/04/2024 | 12/04/2024 | Guilherme e Kauan                                | Leonardo, Guilherme, Lucas, Davi                 | 12/04/2024 - 16/04/2024 |
+| Aplicação das técnicas de priorização escolhidas   | 08/04/2024 | 12/04/2024 | Davi e Lucas                                     | Kallyne, Leonardo, Guilherme, Kauan              | 12/04/2024 - 16/04/2024 |
+| Ajustes finais da entrega 2                        | 12/04/2024 | 16/04/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | 16/04/2024              |
  
 <font size="3">Fonte: [Davi Pierre](https://github.com/DaviPierre).</font> </center>
 
@@ -138,12 +138,12 @@ Na Tabela 1, tem-se o cronograma planejado para todas as etapas de entrega.
 <p align="center"><b>Tabela 09</b> - Planejamento da etapa 5.2  - Pós Rastreabilidade </p>
 
 
-| *Atividade*                                        | *Início*   | *Fim*      | *Responsáveis*                                   | *Revisores*                                      | *Periodo de Revisão*              |
-|----------------------------------------------------|------------|------------|--------------------------------------------------|--------------------------------------------------|-----------------------------------|
-| Correções pós entrega 6                            | 04/06/2024 | 06/06/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | 06/06/2024 - 16/06/2024           |
-| Análise de Requisitos: Verificação dos Artefatos   | 06/06/2024 | 13/06/2024 | Guilherme, Lucas, Kauan                          | Kallyne, Leonardo, Davi                          | 13/06/2024 - 16/06/2024           | 
-| Análise de Requisitos: Validação                   | 06/06/2024 | 13/06/2024 | Leonardo, Davi, Kali                             | Guilherme, Kauan, Lucas                          | 13/06/2024 - 16/06/2024           |
-| Ajustes finais da entrega 5.2                      | 12/06/2024 | 16/06/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | 16/06/2024                        |
+| *Atividade*                                        | *Início*   | *Fim*      | *Responsáveis*                                   | *Revisores*                                      | *Periodo de Revisão*    |
+|----------------------------------------------------|------------|------------|--------------------------------------------------|--------------------------------------------------|-------------------------|
+| Correções pós entrega 6                            | 04/06/2024 | 06/06/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | 06/06/2024 - 16/06/2024 |
+| Análise de Requisitos: Verificação dos Artefatos   | 06/06/2024 | 13/06/2024 | Guilherme, Lucas, Kauan                          | Kallyne, Leonardo, Davi                          | 13/06/2024 - 16/06/2024 | 
+| Análise de Requisitos: Validação                   | 06/06/2024 | 13/06/2024 | Leonardo, Davi, Kali                             | Guilherme, Kauan, Lucas                          | 13/06/2024 - 16/06/2024 |
+| Ajustes finais da entrega 5.2                      | 12/06/2024 | 16/06/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | 16/06/2024              |
 
 <font size="3">Fonte: [Leonardo Aguiar](https://github.com/Leonardo0o).</font> </center>
 
