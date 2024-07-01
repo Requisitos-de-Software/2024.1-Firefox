@@ -6,7 +6,7 @@ O backlog do produto é uma lista priorizada que contém todas as funcionalidade
 
 ## Metodologia 
 
-A estrutura do backlog do produto que foi utilizada envolve a subdivisão em tema, épicos e histórias de usuário. Dessa forma, a organização do backlog do produto foi pensada da seguinte maneira: os temas foram definidos com base nos requisitos levantados e priorizados anteriormente e divididos em épicos, que são as partes que constituem os temas e guiam as histórias de usuário, que são ainda menores e mais específicas (PICHLER, 2017).
+A estrutura do backlog do produto que foi utilizada envolve a subdivisão em tema, épicos e histórias de usuário. Dessa forma, a organização do backlog do produto foi pensada da seguinte maneira: os temas foram definidos com base nos requisitos levantados e priorizados anteriormente e divididos em épicos, que são as partes que constituem os temas e guiam as histórias de usuário, que são ainda menores e mais específicas (CACERES, 2017).
 
 ## Modelo 
 
@@ -99,28 +99,28 @@ O épico de segurança engloba as funcionalidades que protegem o usuário de dan
 
 | Tema | Épicos | Histórias de Usuário       | Prioridade         | Status                                          | 
 | ------ | ---------- | ----------------- | ----------------------------------------------- | ------- |
-| T01    | E01 | [US01](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us01-acessar-site) - Acessar site | Alta | Implementado |
-| T01    | E01 | [US02](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us02-acessar-site-formato-desktop) - Acessar site formato desktop | Alta | Implementado |
-| T01   | E01 | [US03](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us03-favoritar-sites) - Favoritar sites | Alta | Implementado |
-| T01    | E02 | [US04](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us04-pesquisar-no-navegador) - Pesquisar no navegador | Alta | Implementado |
-| T01    | E02 | [US05](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us05-pesquisar-por-voz) - Pesquisar por voz | Alta | Não implementado |
-| T02    | E03 | [US06](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us06-iniciar-leitura-de-paginas) - Iniciar leitura de páginas | Alta | Implementado |
-| T02    | E03 | [US07](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us07-controlar-acesso-a-sites-controle-parental) - Controlar acesso à sites (controle parental) | Alta | Não implementado |
-| T02    | E03 | [US08](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us08-alterar-fonte-do-navegador) - Alterar fonte do navegador | Alta | Implementado |
-| T02    | E03 | [US09](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us09-controlar-por-atalho-de-gestos) - Controlar por atalho de gestos | Alta | Implementado |
-| T02    | E03 | [US10](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us10-alterar-entre-o-tema-claro-e-escuro) - Alterar entre o tema claro e escuro | Alta | Implementado |
-| T03    | E04 | [US11](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us11-gerir-memoria) - Gerir memória | Alta | Implementado |
-| T03    | E05 | [US12](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us12-mudar-idioma) - Mudar idioma | Alta | Implementado |
-| T03    | E05 | [US13](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us13-traduzir-pagina) - Traduzir página | Alta | Implementado |
-| T03    | E06 | [US14](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us14-sincronizar-dados) - Sincronizar dados | Alta | Implementado |
-| T03    | E06 | [US15](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us15-acessar-historico-de-navegacao) - Acessar histórico de navegação | Alta | Implementado |
-| T03    | E06 | [US16](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us16---acessar-historico-de-downloads) - Acessar histórico de downloads | Alta | Implementado |
-| T03    | E06 | [US17](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us17-limpar-historico) - Limpar histórico | Alta | Implementado |
-| T03    | E06 | [US18](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us18-limpar-dados-de-usuario) - Limpar dados de usuário | Alta | Implementado |
-| T03    | E07 | [US19](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us19-trocar-de-conta) - Trocar de conta | Alta | Implementado |
-| T03    | E07 | [US20](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us20-alterar-senha) - Alterar senha | Alta | Implementado |
-| T03    | E07 | [US21](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us21-ter-seguranca-contra-rastreamento-roubo-de-dados-e-ataques) - Ter segurança contra rastreamento, roubo de dados e ataques | Alta | Implementado |
-| T03    | E06 | [US22](../modelagem_agil/historias_de_usuario/historias_de_usuario.md#us22-bloquear-anuncios) - Bloquear anúncios | Alta | Implementado |
+| T01    | E01 | [US01](../../elicitacao/priorizacao/requisitos_priorizados.md) - Acessar site | Alta | Implementado |
+| T01    | E01 | [US02](../../elicitacao/priorizacao/requisitos_priorizados.md) - Acessar site formato desktop | Alta | Implementado |
+| T01   | E01 | [US03](../../elicitacao/priorizacao/requisitos_priorizados.md) - Favoritar sites | Alta | Implementado |
+| T01    | E02 | [US04](../../elicitacao/priorizacao/requisitos_priorizados.md) - Pesquisar no navegador | Alta | Implementado |
+| T01    | E02 | [US05](../../elicitacao/priorizacao/requisitos_priorizados.md) - Pesquisar por voz | Alta | Não implementado |
+| T02    | E03 | [US06](../../elicitacao/priorizacao/requisitos_priorizados.md) - Iniciar leitura de páginas | Alta | Implementado |
+| T02    | E03 | [US07](../../elicitacao/priorizacao/requisitos_priorizados.md) - Controlar acesso à sites (controle parental) | Alta | Não implementado |
+| T02    | E03 | [US08](../../elicitacao/priorizacao/requisitos_priorizados.md) - Alterar fonte do navegador | Alta | Implementado |
+| T02    | E03 | [US09](../../elicitacao/priorizacao/requisitos_priorizados.md) - Controlar por atalho de gestos | Alta | Implementado |
+| T02    | E03 | [US10](../../elicitacao/priorizacao/requisitos_priorizados.md) - Alterar entre o tema claro e escuro | Alta | Implementado |
+| T03    | E04 | [US11](../../elicitacao/priorizacao/requisitos_priorizados.md) - Gerir memória | Alta | Implementado |
+| T03    | E05 | [US12](../../elicitacao/priorizacao/requisitos_priorizados.md) - Mudar idioma | Alta | Implementado |
+| T03    | E05 | [US13](../../elicitacao/priorizacao/requisitos_priorizados.md) - Traduzir página | Alta | Implementado |
+| T03    | E06 | [US14](../../elicitacao/priorizacao/requisitos_priorizados.md) - Sincronizar dados | Alta | Implementado |
+| T03    | E06 | [US15](../../elicitacao/priorizacao/requisitos_priorizados.md) - Acessar histórico de navegação | Alta | Implementado |
+| T03    | E06 | [US16](../../elicitacao/priorizacao/requisitos_priorizados.md) - Acessar histórico de downloads | Alta | Implementado |
+| T03    | E06 | [US17](../../elicitacao/priorizacao/requisitos_priorizados.md) - Limpar histórico | Alta | Implementado |
+| T03    | E06 | [US18](../../elicitacao/priorizacao/requisitos_priorizados.md) - Limpar dados de usuário | Alta | Implementado |
+| T03    | E07 | [US19](../../elicitacao/priorizacao/requisitos_priorizados.md) - Trocar de conta | Alta | Implementado |
+| T03    | E07 | [US20](../../elicitacao/priorizacao/requisitos_priorizados.md) - Alterar senha | Alta | Implementado |
+| T03    | E07 | [US21](../../elicitacao/priorizacao/requisitos_priorizados.md) - Ter segurança contra rastreamento, roubo de dados e ataques | Alta | Implementado |
+| T03    | E06 | [US22](../../elicitacao/priorizacao/requisitos_priorizados.md) - Bloquear anúncios | Alta | Implementado |
 
 
 
@@ -135,7 +135,7 @@ O épico de segurança engloba as funcionalidades que protegem o usuário de dan
 
 1. LuizTools. Product Backlog - Introdução. YouTube, 21 de março de 2020. Disponível em: https://www.youtube.com/watch?v=z4ubaBwjCsU. Acesso em 24 de Maio de 2024.
 2. SCHWABER, Ken; SUTHERLAND, Jeff. The Scrum Guide. The Definitive Guide to Scrum: The Rules of the Game. 2020. Disponível em: https://scrumguides.org/scrum-guide.html. Acesso em: 24 de Maio de 2024.
-3. PICHLER, Roman. Agile Product Management with Scrum: Creating Products that Customers Love. 1. ed. Addison-Wesley Professional, 2017.
+3. CACERES, Diana. Agile Product Management with Scrum: Creating Products that Customers Love. 1. ed. Addison-Wesley Professional, 2017.
 
 ## Histórico de versões
 
