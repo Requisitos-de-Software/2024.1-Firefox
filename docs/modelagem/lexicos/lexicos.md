@@ -2,19 +2,11 @@
 
 ## Introdução
 
-Na engenharia de requisitos, léxicos são documentos que contêm um conjunto de palavras e vocabulário específico relacionado ao domínio do sistema que está sendo desenvolvido. Eles servem como referência para garantir que todos os membros do time tenham uma compreensão comum e consistente dos termos utilizados no projeto, além de ajudarem a definir a linguagem utilizada para a definição dos requisitos do software (ZOWGHI; COULIN, 2003).
+Na engenharia de requisitos, léxicos são documentos que contêm um conjunto de palavras e vocabulário específico relacionado ao domínio do sistema que está sendo desenvolvido. Eles servem como referência para garantir que todos os membros do time tenham uma compreensão comum e consistente dos termos utilizados no projeto, além de ajudarem a definir a linguagem utilizada para a definição dos requisitos do software (YOUNG, 2003; CHEMUTURI, 2010; LEITE et al., 1997).
 
 ## Metodologia
 
-Neste artefato, iremos identificar os léxicos referentes ao navegador Firefox. A metodologia para a identificação dos léxicos envolve a coleta dos termos utilizados no domínio do sistema, seguida da definição clara e concisa de cada termo. Esta prática é fundamental para assegurar que todos os participantes do projeto compartilhem uma compreensão comum dos termos usados (ZOWGHI; COULIN, 2003).
-
-Os léxicos serão baseados nos [requisitos elicitados na entrega 2](../../elicitacao/tecnicas/requisitos_elicitados.md) e na utilização do aplicativo. A seguir, na Tabela 1, temos um modelo de como será feita a definição dos léxicos, seguindo um template estruturado que inclui os elementos: termo, tipo, noção, impacto e autor.
-
-**Tabela 1: Template para os léxicos**
-
-| Termo | Tipo | Noção | Impacto | Autor |
-|-------|------|-------|---------|-------|
-| Nome associado ao léxico | Objeto/Verbo/Estado | Significado do símbolo, com descrição quase que de "dicionário" | Descrição do efeito/uso/decorrência do símbolo na aplicação | Indivíduo que realizou a descrição |
+Neste artefato iremos identificar os léxicos referentes ao navegador Firefox. Teremos como base os [requisitos elicitados na entrega 2](../../elicitacao/tecnicas/requisitos_elicitados.md) e a utilização do aplicativo. A seguir, na tabela 1, temos um modelo de como será feita a definição dos léxicos.
 
 <center>
 
@@ -136,8 +128,10 @@ Os léxicos do tipo Estado representam diferentes estados que um sistema pode as
 
 ## Referências
 
-1. **SERRANO, Milene.** Requisitos - Aula 10. Local: UnB-FGA, Gama, DF. Apresentação de Power Point. 35, color. Disponível em: [Requisitos - Aula 10](https://aprender3.unb.br/pluginfile.php/2845027/mod_resource/content/1/Aula%2010.pdf). Acesso em: 09/05/2024.
-2. **Zowghi, D.; Coulin, C.** - Requirements Elicitation: A Survey of Techniques, Aproaches and Tools. Acesso em: 01/07/2024.
+1. SERRANO, Milene. Requisitos - Aula 10. Local: UnB-FGA, Gama, DF. Apresentação de Power Point. 35, color. Disponível em: [Requisitos - Aula 10](https://aprender3.unb.br/pluginfile.php/2845027/mod_resource/content/1/Aula%2010.pdf). Acesso em: 09 de maio de 2024.
+2. YOUNG, Ralph. Requirements Engineering Handbook. Norwood, US: Artech House Books, 2003.
+3. CHEMUTURI, Murali. Mastering Software Quality Assurance: Best Practices, Tools and Technique for Software Developers. Ft. Lauderdale, US: J. Ross Publishing Inc., 2010.
+4. BERENBACH, Brian; PAULISH, Daniel; KAZMEIER, Juergen; RUDORFER, Arnold. Software & Systems Requirements Engineering: In Practice.
 
 ## Histórico de versões
 
@@ -148,4 +142,3 @@ Os léxicos do tipo Estado representam diferentes estados que um sistema pode as
 | 1.2 | 17/05/2024 | Adição de Itens nas Tabelas 3 e 4| [Davi Pierre](https://github.com/DaviPierre) | [Kauan Eiras](https://github.com/kauaneiras) |
 | 1.3 | 17/05/2024 | Adição de Itens nas Tabelas 3, 4 e 5| [Kauan Eiras](https://github.com/kauaneiras) | [Lucas Martins](https://github.com/martinsglucas) |
 | 1.4 | 05/06/2024 | Adição de Itens nas Tabelas 3 e 5| [Davi Pierre](https://github.com/DaviPierre) | [Kauan Eiras](https://github.com/kauaneiras) |
-| 1.5 | 01/07/2024 | Correção da Introdução e Metodologia| [Davi Pierre](https://github.com/DaviPierre) | [Kauan Eiras](https://github.com/kauaneiras) |
