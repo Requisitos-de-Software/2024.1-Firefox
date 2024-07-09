@@ -18,9 +18,9 @@ A tabela a seguir demonstra os pontos que a tabela de execução vai falar e tam
 
 </center>
 
-## etapa de exposição 
+## Realização 
 
-na tabela a seguir sera apresentado a execução do Projeto.
+Na tabela a seguir será apresentado a execução do Projeto.
 
 <center>
 
