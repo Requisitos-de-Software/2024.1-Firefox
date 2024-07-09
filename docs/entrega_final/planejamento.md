@@ -67,8 +67,7 @@ O método escolhido para a disposição dos dados consiste na reorganização da
 | Verificação Grupo +1| Realizar a ata das reuniões                                   | 29/05/2024  | 09/06/2024 | Davi                                             | Kallyne                                         |
 | Verificação Grupo +1| Gravar a apresentação                                         | 10/06/2024  | 10/06/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi |
 | Pós-Rastreabilidade| Correções pós entrega 5.1                                     | 10/06/2024  | 13/06/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi |
-| Pós-Rastreabilidade| Pós-Rastreabilidade - Gerência                                | 10/06/2024  | 15/06/2024
-| Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi |
+| Pós-Rastreabilidade| Pós-Rastreabilidade - Gerência                                | 10/06/2024  | 15/06/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi |
 | Pós-Rastreabilidade| Realizar a ata das reuniões                                   | 11/06/2024  | 16/06/2024 | Kauan                                            | Guilherme                                       |
 | Pós-Rastreabilidade| Gravar a apresentação                                         | 17/06/2024  | 17/06/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi |
 | Verificação Grupo  | Correções pós entrega 6                                       | 17/06/2024  | 20/06/2024 | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi | Kallyne, Leonardo, Guilherme, Kauan, Lucas, Davi |
