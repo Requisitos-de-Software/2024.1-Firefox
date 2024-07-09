@@ -10,7 +10,7 @@ Para assistir a cada apresentação, clique no link do vídeo correspondente. Se
 
 ### Apresentação 1 - 01.04.2024
 
-- **Entrega:** [Apresentação 1](../apresentacoes/apresentacoes/apresentacao_1.md)
+- **Entrega:** [Apresentação 1](../apresentacoes/apresentacao_1.md)
 - **Data:** 01/04/2024
 - **Link do Vídeo:** [YouTube](https://www.youtube.com/embed/Izkc9Wx-Y24?si=TN-f5nqUuHl6XQBL)
 - **Participantes:**
