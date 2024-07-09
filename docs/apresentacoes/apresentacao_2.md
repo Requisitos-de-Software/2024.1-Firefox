@@ -19,12 +19,12 @@ O propósito desta página é hospedar a apresentação da Segunda Entrega em fo
 
 | Item Apresentado | Apresentador | Minuto da Apresentação |
 | ---------------- | ------------ | ---------------------- |
-| Cronograma Executado | [Kallyne Macedo](https://github.com/kalipassos) | [0:00](https://youtu.be/dkXalFSwIkE)|
-| Análise de Documentos | [Lucas Martins](https://github.com/martinsglucas) | [0:57](https://youtu.be/dkXalFSwIkE?t=57) |
-| Perfil de Usuário | [Leonardo Aguiar](https://github.com/Leonardo0o0) | [2:59](https://youtu.be/dkXalFSwIkE?t=179) |
-| Personas | [Kallyne Macedo](https://github.com/kalipassos) | [3:48](https://youtu.be/dkXalFSwIkE?t=228)|
-| Persona secundária e Antipersona | [Leonardo Aguiar](https://github.com/Leonardo0o0) | [6:16](https://youtu.be/dkXalFSwIkE?t=376) |
-| Elicitação de requisitos: Brainstorming | [Guilherme Westphall](https://github.com/west7) | [8:00](https://youtu.be/dkXalFSwIkE?t=480) |
+| Cronograma Executado | [Kallyne Macedo](https://github.com/kalipassos) | [00:00](https://youtu.be/dkXalFSwIkE)|
+| Análise de Documentos | [Lucas Martins](https://github.com/martinsglucas) | [00:57](https://youtu.be/dkXalFSwIkE?t=57) |
+| Perfil de Usuário | [Leonardo Aguiar](https://github.com/Leonardo0o0) | [02:59](https://youtu.be/dkXalFSwIkE?t=179) |
+| Personas | [Kallyne Macedo](https://github.com/kalipassos) | [03:48](https://youtu.be/dkXalFSwIkE?t=228)|
+| Persona secundária e Antipersona | [Leonardo Aguiar](https://github.com/Leonardo0o0) | [06:16](https://youtu.be/dkXalFSwIkE?t=376) |
+| Elicitação de requisitos: Brainstorming | [Guilherme Westphall](https://github.com/west7) | [08:00](https://youtu.be/dkXalFSwIkE?t=480) |
 | Elicitação de requisitos: Entrevista| [Kauan Eiras](https://github.com/kauaneiras) | [10:00](https://youtu.be/dkXalFSwIkE?t=600) |
 | Elicitação de requisitos: Observação | [Guilherme Westphall](https://github.com/west7) | [12:00](https://youtu.be/dkXalFSwIkE?t=720) |
 | Elicitação de requisitos: Questionário| [Kauan Eiras](https://github.com/kauaneiras) | [13:08](https://youtu.be/dkXalFSwIkE?t=788) |
@@ -35,6 +35,8 @@ O propósito desta página é hospedar a apresentação da Segunda Entrega em fo
 | Priorização de Requisitos: Three Level Scale | [Lucas Martins](https://github.com/martinsglucas) | [19:32](https://youtu.be/dkXalFSwIkE?t=1172) |
 | Priorização de Requisitos: MOSCOW | [Leonardo Aguiar](https://github.com/Leonardo0o0) | [20:59](https://youtu.be/dkXalFSwIkE?t=1259) |
 | Priorização de Requisitos: MOSCOW (tabela) | [Kaline Macedo](https://github.com/kalipassos) | [22:03](https://youtu.be/dkXalFSwIkE?t=1323) |
+
+Autor: [Kauan Eiras](https://github.com/kauaneiras).
 
 ## Histórico de Versão
 

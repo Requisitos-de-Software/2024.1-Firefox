@@ -8,11 +8,11 @@ O propósito desta página é hospedar a apresentação da Primeira Entrega em f
 
 <center>
 
-`<font size="3"><p>`Vídeo 1: Requisitos - Apresentação 1`</p></font>`
+<font size="3"><p>Vídeo 1: Requisitos - Apresentação 1</p></font>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Izkc9Wx-Y24?si=TN-f5nqUuHl6XQBL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-`<font size="3"><p>`Autor: [Kallyne Macedo](https://github.com/kalipassos) `</p></font>`
+<font size="3"><p>Autor: [Kallyne Macedo](https://github.com/kalipassos) </p></font>
 
 </center>
 
@@ -31,6 +31,8 @@ O propósito desta página é hospedar a apresentação da Primeira Entrega em f
 | Ferramentas Utilizadas | [Guilherme Westphall](https://github.com/west7) | [9:40](https://youtu.be/Izkc9Wx-Y24?t=580) |
 | Cronograma Planejado Geral | [Davi Pierre](https://github.com/DaviPierre) | [10:32](https://youtu.be/Izkc9Wx-Y24?t=632) |
 | Cronograma Entregas | [Leonardo Aguiar](https://github.com/Leonardo0o0) | [11:20](https://youtu.be/Izkc9Wx-Y24?t=677) |
+
+Autor: [Kauan Eiras](https://github.com/kauaneiras).
 
 ## Histórico de Versão
 

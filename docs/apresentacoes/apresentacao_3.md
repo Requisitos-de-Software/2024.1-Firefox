@@ -20,18 +20,21 @@ O propósito desta página é hospedar a apresentação da Terceira Entrega em f
 
 | Item Apresentado | Apresentador | Minuto da Apresentação |
 | ---------------- | ------------ | ---------------------- |
-| Léxicos: Introdução e Metodologia | [Guilherme Westphall](https://github.com/west7) | [0:14](https://youtu.be/dKipjgIjNpE?t=14) |
-| Léxicos: Objetos | [Davi Pierre](https://github.com/DaviPierre) | [1:57](https://youtu.be/dKipjgIjNpE?t=117) |
-| Léxicos: Verbo e Estado| [Kauan Eiras](https://github.com/kauaneiras) | [2:38](https://youtu.be/dKipjgIjNpE?t=158) |
-| Cenários: Introdução e Metodologia| [Kauan Eiras](https://github.com/kauaneiras) | [4:00](https://youtu.be/dKipjgIjNpE?t=240) |
-| Cenários: Exemplos de cenários | [Lucas Martins](https://github.com/martinsglucas) | [4:56](https://youtu.be/dKipjgIjNpE?t=296) |
-| Casos de Uso: Introdução e Metodologia | [Guilherme Westphall](https://github.com/west7) | [6:13](https://youtu.be/dKipjgIjNpE?t=373) |
-| Casos de Uso: Diagrama | [Kallyne Macedo](https://github.com/kalipassos) | [7:19](https://youtu.be/dKipjgIjNpE?t=439) |
-| Casos de Uso: Especificações | [Davi Pierre](https://github.com/DaviPierre) | [8:23](https://youtu.be/dKipjgIjNpE?t=503) |
+| Léxicos: Introdução e Metodologia | [Guilherme Westphall](https://github.com/west7) | [00:14](https://youtu.be/dKipjgIjNpE?t=14) |
+| Léxicos: Objetos | [Davi Pierre](https://github.com/DaviPierre) | [01:57](https://youtu.be/dKipjgIjNpE?t=117) |
+| Léxicos: Verbo e Estado| [Kauan Eiras](https://github.com/kauaneiras) | [02:38](https://youtu.be/dKipjgIjNpE?t=158) |
+| Cenários: Introdução e Metodologia| [Kauan Eiras](https://github.com/kauaneiras) | [04:00](https://youtu.be/dKipjgIjNpE?t=240) |
+| Cenários: Exemplos de cenários | [Lucas Martins](https://github.com/martinsglucas) | [04:56](https://youtu.be/dKipjgIjNpE?t=296) |
+| Casos de Uso: Introdução e Metodologia | [Guilherme Westphall](https://github.com/west7) | [06:13](https://youtu.be/dKipjgIjNpE?t=373) |
+| Casos de Uso: Diagrama | [Kallyne Macedo](https://github.com/kalipassos) | [07:19](https://youtu.be/dKipjgIjNpE?t=439) |
+| Casos de Uso: Especificações | [Davi Pierre](https://github.com/DaviPierre) | [08:23](https://youtu.be/dKipjgIjNpE?t=503) |
 | Validação de casos de uso: Introdução e Metodologia| [Leonardo Aguiar](https://github.com/Leonardo0o0) | [10:55](https://youtu.be/dKipjgIjNpE?t=655) |
 | Validação de casos de uso: Validação | [Kallyne Macedo](https://github.com/kalipassos) | [11:38](https://youtu.be/dKipjgIjNpE?t=698) |
 | Especificação Suplementar: Introdução | [Lucas Martins](https://github.com/martinsglucas) | [14:09](https://youtu.be/dKipjgIjNpE?t=849) |
+| Especificação Suplementar: FURPS+ | [Leonardo Aguiar](https://github.com/Leonardo0o0) | [15:17](https://youtu.be/dKipjgIjNpE?t=917) |
+| Especificação Suplementar: FURPS+ | [Kallyne Macedo](https://github.com/kalipassos) | [20:23](https://youtu.be/dKipjgIjNpE?t=917) |
 
+Autor: [Kauan Eiras](https://github.com/kauaneiras).
 
 ## Histórico de Versão
 

@@ -8,7 +8,7 @@ Para assistir a cada apresentação, clique no link do vídeo correspondente. Se
 
 ---
 
-### Apresentação 1 - 01.04.2024
+## Apresentação 1 - 01.04.2024
 
 - **Entrega:** [Apresentação 1](../apresentacoes/apresentacao_1.md)
 - **Data:** 01/04/2024
@@ -26,7 +26,7 @@ Para assistir a cada apresentação, clique no link do vídeo correspondente. Se
 
 ---
 
-### Apresentação 2 - 24.04.2024
+## Apresentação 2 - 24.04.2024
 
 - **Entrega:** [Apresentação 2](../apresentacoes/apresentacao_2.md)
 - **Data:** 24/04/2024
@@ -44,7 +44,7 @@ Para assistir a cada apresentação, clique no link do vídeo correspondente. Se
 
 ---
 
-### Apresentação 3 - 20.05.2024
+## Apresentação 3 - 20.05.2024
 
 - **Entrega:** [Apresentação 3](../apresentacoes/apresentacao_3.md)
 - **Data:** 20/05/2024
@@ -62,7 +62,7 @@ Para assistir a cada apresentação, clique no link do vídeo correspondente. Se
 
 ---
 
-### Apresentação 4 - 27.05.2024
+## Apresentação 4 - 27.05.2024
 
 - **Entrega:** [Apresentação 4](../apresentacoes/apresentacao_4.md)
 - **Data:** 27/05/2024
@@ -80,7 +80,7 @@ Para assistir a cada apresentação, clique no link do vídeo correspondente. Se
 
 ---
 
-### Apresentação 5.1 - 10.06.2024
+## Apresentação 5.1 - 10.06.2024
 
 - **Entrega:** [Apresentação 5.1](../apresentacoes/apresentacao_5.1.md)
 - **Data:** 10/06/2024
@@ -98,7 +98,7 @@ Para assistir a cada apresentação, clique no link do vídeo correspondente. Se
 
 ---
 
-### Apresentação 5.2 - 01.07.2024
+## Apresentação 5.2 - 01.07.2024
 
 - **Entrega:** [Apresentação 5.2](../apresentacoes/apresentacao_5.2.md)
 - **Data:** 01/07/2024
@@ -116,7 +116,7 @@ Para assistir a cada apresentação, clique no link do vídeo correspondente. Se
 
 ---
 
-### Apresentação 6 - 24.06.2024
+## Apresentação 6 - 24.06.2024
 
 - **Entrega:** [Apresentação 6](../apresentacoes/apresentacao_6.md)
 - **Data:** 24/06/2024
@@ -133,6 +133,26 @@ Para assistir a cada apresentação, clique no link do vídeo correspondente. Se
 | 6. Lucas Martins Gabriel         | ✅        | Discente     | E-mail: [lucasmartinsgabriel@gmail.com](mailto:lucasmartinsgabriel@gmail.com) |
 
 ---
+
+## Apresentação Final - 08.07.2024
+
+- **Entrega:** [Apresentação 6](../apresentacoes/apresentacao_final.md)
+- **Data:** 08/07/2024
+- **Link do Vídeo:** [YouTube](https://www.youtube.com/embed/6u2ToAi8hSE?si=lKX58RrZdryaVFls)
+- **Participantes:**
+
+| Convocados                       | Presente | Área/Empresa | E-mail                                                                        |
+|----------------------------------|----------|--------------|-------------------------------------------------------------------------------|
+| 1. Davi Gonçalves Akegawa Pierre | ✅        | Discente     | E-mail: [zafirosafira@gmail.com](mailto:zafirosafira@gmail.com)               |
+| 2. Guilherme Westphall           | ✅        | Discente     | E-mail: [guilhermewestphall@gmail.com](mailto:guilhermewestphall@gmail.com)   |
+| 3. Kallyne Macedo Passos         | ✅        | Discente     | E-mail: [kallyne.passos@aluno.unb.br](mailto:kallyne.passos@aluno.unb.br)     |
+| 4. Kauan de Torres Eiras         | ✅        | Discente     | E-mail: [232014727@aluno.unb.br](mailto:232014727@aluno.unb.br)               |
+| 5. Leonardo Sobrinho de Aguiar   | ✅        | Discente     | E-mail: [leonardosobrinhoa@hotmail.com](mailto:leonardosobrinhoa@hotmail.com) |
+| 6. Lucas Martins Gabriel         | ✅        | Discente     | E-mail: [lucasmartinsgabriel@gmail.com](mailto:lucasmartinsgabriel@gmail.com) |
+
+---
+
+
 
 | Versão | Data       | Descrição                                                                            | Autor                                           | Revisor                                        |
 | ------ | ---------- | ------------------------------------------------------------------------------------ | ----------------------------------------------- | ---------------------------------------------- |
