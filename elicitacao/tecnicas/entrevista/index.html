@@ -1,0 +1,3885 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Site destinado à apresentação do projeto de requisitos de software do Firefox">
+      
+      
+        <meta name="author" content="Grupo 06">
+      
+      
+        <link rel="canonical" href="https://requisitos-de-software.github.io/2024.1-Firefox/elicitacao/tecnicas/entrevista/">
+      
+      
+        <link rel="prev" href="../brainstorming/">
+      
+      
+        <link rel="next" href="../observacao/">
+      
+      
+      <link rel="icon" href="../../../images/firefox.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.28">
+    
+    
+      
+        <title>Entrevista - Firefox</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6543a935.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#elicitacao-de-requisitos-entrevista" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Firefox" class="md-header__button md-logo" aria-label="Firefox" data-md-component="logo">
+      
+  <img src="../../../images/firefox.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Firefox
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Entrevista
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="orange"  aria-label="Mudar para o modo escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para o modo escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="orange"  aria-label="Mudar para o modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para o modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Requisitos-de-Software/2024.1-Firefox/" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2024.1-Firefox
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../atas/ata_27_03/" class="md-tabs__link">
+          
+  
+  Atas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../apresentacoes/apresentacao_1/" class="md-tabs__link">
+          
+  
+  Apresentações
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../planejamento/heatmap/" class="md-tabs__link">
+          
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../pre-rastreabilidade/rich-picture/" class="md-tabs__link">
+          
+  
+  Pré-Rastreabilidade
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../perfil_usuario/analise_documento/" class="md-tabs__link">
+          
+  
+  Elicitação
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../modelagem/lexicos/lexicos/" class="md-tabs__link">
+          
+  
+  Modelagem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../modelagem_agil/backlog/" class="md-tabs__link">
+          
+  
+  Modelagem Ágil
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../pos-rastreabilidade/baseline/" class="md-tabs__link">
+          
+  
+  Pós-Rastreabilidade
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../verificacao/grupo_6/entrega_1/" class="md-tabs__link">
+          
+  
+  V&V
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../entrega_final/app_selecionado/" class="md-tabs__link">
+          
+  
+  Entrega Final
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Firefox" class="md-nav__button md-logo" aria-label="Firefox" data-md-component="logo">
+      
+  <img src="../../../images/firefox.png" alt="logo">
+
+    </a>
+    Firefox
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Requisitos-de-Software/2024.1-Firefox/" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2024.1-Firefox
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Início
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Atas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Atas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_27_03/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião 27/03
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_08_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião 08/04
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_15_04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião 15/04
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_06_05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião 06/05
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_22_05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião 22/05
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_29_05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião 29/05
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_05_06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião 05/06
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_10_06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião 10/06
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_13_06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião 13/06
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_19_06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reunião 19/06
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Apresentações
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentações
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao_1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao_3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao_4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao_5.1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 5.1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao_5.2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 5.2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao_6/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação 6
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao_final/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação Final
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heatmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cronograma
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ferramentas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/contribuicao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribuição
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/apps_avaliados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apps Avaliados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/app_escolhido/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    App Escolhido
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/termo_de_uso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Termo de Uso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/licenca/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Licença
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pré-Rastreabilidade
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Pré-Rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pre-rastreabilidade/rich-picture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rich Picture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Elicitação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Definição do Perfil de Usuário
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            Definição do Perfil de Usuário
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../perfil_usuario/analise_documento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Análise de Documentos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../perfil_usuario/perfil_de_usuario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Perfil de Usuário
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Elicitação de Requisitos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitação de Requisitos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6_2_1" id="__nav_6_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Técnicas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../brainstorming/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Brainstorming
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Entrevista
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Entrevista
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#justificativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Justificativa
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desenvolvimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desenvolvimento
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Desenvolvimento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-1-informacoes-dos-entrevistados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela 1: Informações dos entrevistados
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrevista-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entrevista 1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Entrevista 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#video-entrevista-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vídeo - Entrevista 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-2-transcricao-da-entrevista" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela 2: Transcrição da entrevista
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrevista-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entrevista 2
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Entrevista 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#video-entrevista-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vídeo - Entrevista 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-3-transcricao-da-entrevista" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela 3: Transcrição da entrevista
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrevista-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entrevista 3
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Entrevista 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#video-entrevista-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vídeo - Entrevista 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-4-transcricao-da-entrevista" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela 4: Transcrição da entrevista
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrevista-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entrevista 4
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Entrevista 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#video-entrevista-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vídeo - Entrevista 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-5-transcricao-da-entrevista" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela 5: Transcrição da entrevista
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultado" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resultado
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultado">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-6-requisitos-elicitados-na-entrevista" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela 6: Requisitos elicitados na Entrevista.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../observacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Observação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../questionario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Questionário
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../requisitos_elicitados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Requisitos Elicitados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../espec_requisitos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Especificação de Requisitos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Priorização de Requisitos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            Priorização de Requisitos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/tecnicas_de_priorizacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Técnicas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../priorizacao/requisitos_priorizados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Requisitos Priorizados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Modelagem
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/lexicos/lexicos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Léxicos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cenários
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casos_de_uso/casos_de_uso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Casos de Uso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casos_de_uso/valid_casos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Validação dos Casos de Uso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/especificacao-suplementar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Modelagem Ágil
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem Ágil
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem_agil/backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem_agil/historias_de_usuario/historias_de_usuario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Histórias de usuário
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem_agil/NFR%20Framework/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NFR Framework
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pós-Rastreabilidade
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Pós-Rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pos-rastreabilidade/baseline/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Baseline
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pos-rastreabilidade/backwardfrom/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backward From
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pos-rastreabilidade/forwardfrom/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Forward From
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pos-rastreabilidade/elos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Elos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    V&V
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            V&V
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_1" id="__nav_10_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Verificação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_1">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_1_1" id="__nav_10_1_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Grupo 6
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo 6
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo_6/entrega_1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pré-Rastreabilidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo_6/entrega_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Elicitação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo_6/entrega_3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modelagem
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo_6/entrega_4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modelagem Ágil
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo_6/entrega_6/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pós-Rastreabilidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_1_2" id="__nav_10_1_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Grupo 7
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo 7
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo_7/entrega_1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pré-Rastreabilidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo_7/entrega_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Elicitação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo_7/entrega_3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modelagem
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo_7/entrega_4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modelagem Ágil
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2" id="__nav_10_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Validação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2">
+            <span class="md-nav__icon md-icon"></span>
+            Validação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../validacao/validacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Validação do Protótipo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../validacao/comprov_informal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Comprovação Informal
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Entrega Final
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega Final
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/app_selecionado/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aplicativo Selecionado
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/planejamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento dos Recursos e das Entregas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/execucao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Execução do Projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/tecnicas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Técnicas Utilizadas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/ferramentas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ferramentas Utilizadas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/artefatos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Artefatos Sintetizados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/v%26v/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Verificação e Validação dos Artefatos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/apresentacoes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentações
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/resultados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados Alcançados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#justificativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Justificativa
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desenvolvimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desenvolvimento
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Desenvolvimento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-1-informacoes-dos-entrevistados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela 1: Informações dos entrevistados
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrevista-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entrevista 1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Entrevista 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#video-entrevista-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vídeo - Entrevista 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-2-transcricao-da-entrevista" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela 2: Transcrição da entrevista
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrevista-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entrevista 2
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Entrevista 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#video-entrevista-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vídeo - Entrevista 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-3-transcricao-da-entrevista" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela 3: Transcrição da entrevista
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrevista-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entrevista 3
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Entrevista 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#video-entrevista-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vídeo - Entrevista 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-4-transcricao-da-entrevista" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela 4: Transcrição da entrevista
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrevista-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entrevista 4
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Entrevista 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#video-entrevista-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vídeo - Entrevista 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-5-transcricao-da-entrevista" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela 5: Transcrição da entrevista
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultado" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resultado
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultado">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tabela-6-requisitos-elicitados-na-entrevista" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela 6: Requisitos elicitados na Entrevista.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="elicitacao-de-requisitos-entrevista">Elicitação de Requisitos: Entrevista</h1>
+<h2 id="introducao">Introdução</h2>
+<p>A entrevista é amplamente reconhecida como a técnica mais comum e uma das mais eficazes para a elicitação de requisitos. A Entrevista envolve discussões individuais entre um representante da equipe e um usuário ou stakeholder. Devido à sua capacidade de obter um conhecimento profundo, é considerada essencial para obter e validar os requisitos de software. Através de uma conversa, são feitas perguntas associadas aos requisitos (Barbosa e Silva, 2021).</p>
+<h2 id="justificativa">Justificativa</h2>
+<p>A entrevista é valiosa para entender as necessidades e expectativas dos usuários em relação a um sistema. Ela permite uma troca direta entre o entrevistador e o usuário, possibilitando uma compreensão profunda das questões e desafios enfrentados ao utilizar o sistema (Vianna et al., 2011). Esta técnica foi escolhida para este projeto por ser uma maneira eficaz de ouvir os usuários sobre suas preocupações e usar essas informações para melhorar continuamente o sistema (UFSC, 2023).</p>
+<h2 id="objetivo">Objetivo</h2>
+<p>Empregamos a técnica de entrevista para realizar entrevistas com usuários, ex-usuários ou não usuários do Firefox, mas que utilizam navegadores como Google Chrome, Microsoft Edge, Safari, ou outros. O objetivo principal foi identificar as necessidades dos usuários e entender os motivos para a escolha de cada navegador, além de compreender suas experiências, desafios e preferências ao utilizar navegadores, visando identificar possíveis aprimoramentos para o Firefox (Barbosa e Silva, 2021).</p>
+<p><strong>Perfil dos usuários:</strong> Pessoas com idade superior a 12 anos, que utilizem navegadores de internet.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>A entrevista, sendo um método verbal fácil e efetivo para compartilhar ideias e expressar necessidades entre usuários, analistas e stakeholders, pode ser estruturada, não estruturada ou semi-estruturada:</p>
+<ul>
+<li><strong>Estruturadas</strong>: Baseadas em um conjunto fixo de perguntas, permitem examinar o nível de compreensão dos stakeholders sobre determinado tópico.</li>
+<li><strong>Não estruturadas</strong>: Conversacionais por natureza, são úteis para focar na compreensão de problemas específicos.</li>
+<li><strong>Semi-estruturada</strong>: Combinação de perguntas pré-definidas e não planejadas, misturando os tipos estruturado e não estruturado (Barbosa e Silva, 2021).</li>
+</ul>
+<p>O processo de entrevista pode ser resumido em oito passos: identificar o stakeholder, preparar a entrevista, agendar, preparar o ambiente, conduzir, finalizar a entrevista e organizar os requisitos elicitados (UFSC, 2023).</p>
+<p>A técnica de entrevista utilizada foi a semi-estruturada, conduzidas utilizando o Google Meets. O termo de consentimento para realização das entrevistas podem ser conferidos clicando <a href="https://drive.google.com/drive/folders/1rE7I4LeM09IeOsDSxTvZ2_RKEwCYpVEF?usp=drive_link">aqui</a>.</p>
+<p>Após apresentar o termo de consentimento, forão feitas perguntas para o participante. Como nem todos os participantes utilizavam o Firefox, as perguntas foram abertas e adaptadas para melhor interação do usuário. Tamabém foi dada a abertura para o participante expressar opiniões fora deste escopo. As perguntas poderão ser lidas na transcrição de cada entrevista.</p>
+<h2 id="desenvolvimento">Desenvolvimento</h2>
+<p>Na tabela a seguir será apresentado informações sobre os entrevistados.</p>
+<p><center></p>
+<h3 id="tabela-1-informacoes-dos-entrevistados">Tabela 1: Informações dos entrevistados</h3>
+<table>
+<thead>
+<tr>
+<th>Entrevistado</th>
+<th>Idade</th>
+<th>Gênero</th>
+<th>Ocupação</th>
+<th>Estado civil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nathalia Pimentel de Assis</td>
+<td>24</td>
+<td>Feminino</td>
+<td>Estudante e Desenvolvedora Full Stack</td>
+<td>Solteira</td>
+</tr>
+<tr>
+<td>Amanda Ferreira</td>
+<td>46</td>
+<td>Feminino</td>
+<td>Professora</td>
+<td>Casada</td>
+</tr>
+<tr>
+<td>Carla Clementino</td>
+<td>23</td>
+<td>Feminino</td>
+<td>Desenvolvedora Front-End</td>
+<td>Solteiro</td>
+</tr>
+<tr>
+<td>José Roberto</td>
+<td>22</td>
+<td>Masculino</td>
+<td>Estudante e Desenvolvedora Full-Stack</td>
+<td>Solteiro</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Autor:</strong> <a href="https://github.com/kauaneiras">Kauan Eiras</a>, 2024.
+</center><br></p>
+<h2 id="entrevista-1">Entrevista 1</h2>
+<p>A primeira entrevista foi realizada no dia 12/04/2024 às 18:30, com a <a href="https://www.linkedin.com/in/nathalia-p-assis/">Nathalia Assis</a>, mulher, 24 anos, estudante de Engenharia da Computação na Universidade de Brasilia (UnB) e estágiária em desenvolvimento de software full stack em uma startup. Ela já utilizou o Firefox tanto no computador como no celular, porém, atualmente utiliza o <a href="https://www.google.pt/intl/pt-PT/chrome/">Google Chrome</a> em seu computador e o <a href="https://brave.com/pt-br/">Brave</a> em seu celular.</p>
+<h3 id="video-entrevista-1">Vídeo - Entrevista 1</h3>
+<ul>
+<li>Caso não consiga assistir dentro da gitPages, <a href="https://www.youtube.com/watch?v=1FsLuImzNow">Clique aqui</a></li>
+</ul>
+<p><center></p>
+<p><strong>Video 1</strong>: Entrevista Nathália</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1FsLuImzNow?si=BQpnzOy01gUifS3P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p><strong>Autor:</strong> <a href="https://github.com/kauaneiras">Kauan Eiras</a>, 2024.</p>
+<h3 id="tabela-2-transcricao-da-entrevista">Tabela 2: Transcrição da entrevista</h3>
+<table>
+<thead>
+<tr>
+<th>Pergunta</th>
+<th>Respostas da Nathalia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Você utiliza ou já utilizou o Firefox?</td>
+<td>Eu costumava utilizar no computador.</td>
+</tr>
+<tr>
+<td>E atualmente você não utiliza no computador?</td>
+<td>Não.</td>
+</tr>
+<tr>
+<td>Qual o navegador principal que você utiliza no seu computador e por que saiu do Firefox para este navegador?</td>
+<td>Atualmente, no meu computador, eu utilizo o Chrome. O que me fez migrar do Firefox para o Chrome é justamente uma coisa que considero muito importante e útil, que é a sincronização dos dados. Tudo que posso salvar, como favoritos, histórico e senhas, fica na minha conta do Google. É muito fácil acessar o Chrome em qualquer computador e encontrar tudo o que tenho salvo.</td>
+</tr>
+<tr>
+<td>Qual o seu navegador principal no celular?</td>
+<td>No celular, o que mais utilizo é o Brave, que tem a função de bloquear anúncios. Apenas quando quero acessar algo específico com minhas credenciais, utilizo o Chrome do celular, pois minhas senhas estão salvas lá.</td>
+</tr>
+<tr>
+<td>Teria algum recurso que poderia te fazer utilizar o Firefox?</td>
+<td>Justamente a questão da sincronização de dados. Acessar o Firefox em qualquer lugar e já ter meus favoritos ali após fazer login no meu email. Todo navegador deveria ter essa função.</td>
+</tr>
+<tr>
+<td>Apenas esse recurso te faria migrar para o Firefox?</td>
+<td>Com certeza, se tivesse a sincronização com o Google, eu consideraria utilizá-lo, até porque é mais leve que o Chrome. O Chrome é muito pesado.</td>
+</tr>
+<tr>
+<td>E você deixaria de utilizar o Brave também?</td>
+<td>Para o Firefox se tornar meu único navegador, precisaria de um bloqueador de anúncios e VPN.</td>
+</tr>
+<tr>
+<td>Tem mais alguma coisa que você acharia interessante implementarem no Firefox?</td>
+<td>Eu acho que apenas essa função de sincronização e bloqueio de anúncios seria um diferencial muito grande para o Firefox.</td>
+</tr>
+<tr>
+<td>Você gostaria de acrescentar algo mais?</td>
+<td>Eu já testei o Firefox no celular, mas não me adaptei por conta dos pontos que mencionei. No entanto, um ponto positivo do Firefox é que ao abrir o aplicativo, já tinha as páginas que visitei recentemente. Esse recurso é muito interessante.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Autor:</strong> <a href="https://github.com/kauaneiras">Kauan Eiras</a>, 2024.
+</center></p>
+<h2 id="entrevista-2">Entrevista 2</h2>
+<p>A segunda entrevista foi realizada no dia 13/04/2024 às 20:00, com a Amanda Ferreira de Torres, mulher, 46 anos, professora de ensino fundamental 1. Ela já utilizou o Firefox, mas, atualmente, utiliza o <a href="https://www.google.pt/intl/pt-PT/chrome/">Google Chrome</a> em seu computador e em seu celular.</p>
+<h3 id="video-entrevista-2">Vídeo - Entrevista 2</h3>
+<ul>
+<li>Caso não consiga assistir dentro da gitPages, <a href="https://www.youtube.com/watch?v=30OWuL3uVPk">Clique aqui</a></li>
+</ul>
+<p><center></p>
+<p><strong>Video 2</strong>: Entrevista Amanda</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/30OWuL3uVPk?si=a27EVy_ZztX1lkIL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p><strong>Autor:</strong> <a href="https://github.com/kauaneiras">Kauan Eiras</a>, 2024.</p>
+<h3 id="tabela-3-transcricao-da-entrevista">Tabela 3: Transcrição da entrevista</h3>
+<table>
+<thead>
+<tr>
+<th>Pergunta</th>
+<th>Respostas da Amanda</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Você utiliza ou já utilizou o Firefox?</td>
+<td>Eu já utilizei o Firefox, mas atualmente não utilizo</td>
+</tr>
+<tr>
+<td>Qual navegador você utiliza no seu celular e no seu computador?</td>
+<td>Eu utilizo o Google</td>
+</tr>
+<tr>
+<td>Por que saiu do Firefox para o Google?</td>
+<td>O Google vem instalado no computador e no celular, e isso é prático</td>
+</tr>
+<tr>
+<td>Tem algo que poderia tornar o seu navegador melhor?</td>
+<td>Eu gostaria que não tivesse anuncios</td>
+</tr>
+<tr>
+<td>Se o Firefox tivesse um bloqueador de anuncios, você instalaria?</td>
+<td>Com certeza</td>
+</tr>
+<tr>
+<td>Tem algo que você sente falta nos navegadores?</td>
+<td>Para o que eu utilizo, só a retirada de anuncios já ficaria otimo</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Autor:</strong> <a href="https://github.com/kauaneiras">Kauan Eiras</a>, 2024.
+</center></p>
+<h2 id="entrevista-3">Entrevista 3</h2>
+<p>A terceira entrevista foi realizada no dia 14/04/2024 às 14h, com a <a href="https://www.linkedin.com/in/carlaacr/?locale=en_US">Carla Clementino</a>, mulher, 23 anos, desenvolvedora Front-End em uma software house. Ela gosta de analisar interfaces de aplicativos e já foi entrevistada anteriormente em outro projeto da disciplina sobre o Open Street Map. Carla utiliza o Firefox diariamente como desenvolvedora, para verificar se sua aplicação está funcionando em vários navegadores. Porém, o navegador principal que ela utiliza é o<a href="https://www.google.pt/intl/pt-PT/chrome/">Google Chrome</a>, tanto em seu computador como em seu celular.</p>
+<h3 id="video-entrevista-3">Vídeo - Entrevista 3</h3>
+<ul>
+<li>Caso não consiga assistir dentro da gitPages, <a href="https://www.youtube.com/watch?v=cOFauey7vbU">Clique aqui</a></li>
+</ul>
+<p><center></p>
+<p><strong>Video 3</strong>: Entrevista Carla</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cOFauey7vbU?si=sVDCNxDKEjeil_ES" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p><strong>Autor:</strong> <a href="https://github.com/kauaneiras">Kauan Eiras</a>, 2024.</p>
+<h3 id="tabela-4-transcricao-da-entrevista">Tabela 4: Transcrição da entrevista</h3>
+<table>
+<thead>
+<tr>
+<th>Pergunta</th>
+<th>Respostas da Carla</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Você utiliza ou já utilizou o Firefox?</td>
+<td>Sim, mas não é a minha minha primeira opção de navegador. Eu costumo utilizar mais o Google Chrome, mas eu também utilizo Firefox justamente para eu conseguir analisar a responsibilidade das aplicações que eu tô desenvolvendo que às vezes funciona em um navegador mas não funciona em outro, então eu tenho que ter mais contato com outros tipos de navegadores.</td>
+</tr>
+<tr>
+<td>Ao observar os navegadores que você utiliza, tem algo que acha que poderia ser melhor no Firefox?</td>
+<td>Minha principal opção de navegador é o Chrome porque eu acho que as funcionalidades dele são mais acessíveis e digamos que eu não preciso Navegar tanto para eu chegar onde preciso. No Firefox preciso de um pouco mais de tempo para chegar onde eu quero. Ma hora de pesquisar alguma aplicação e tudo mais.</td>
+</tr>
+<tr>
+<td>Tem alguma ferramenta em específica que você acha muito melhor no Google e no Firefox não consigue usar bem?</td>
+<td>Nada em específico. É que demora mais.</td>
+</tr>
+<tr>
+<td>E no seu celular, qual é o que você utiliza?</td>
+<td>Eu não utilizo assim nem o Chrome, nem o Firefox no meu celular. Eu uso a Barrinha do Google que já vem no Android</td>
+</tr>
+<tr>
+<td>O que você acredita que seria bom ter nos navegadores que te faria optaria por baixar o que tivesse esse recurso?</td>
+<td>Com relação ao meu trabalho eu gostaria que tivesse um navegador que eu conseguisse simular a minha aplicação em vários navegadores no mesmo navegador.</td>
+</tr>
+<tr>
+<td>O que você acha da interface do Firefox?</td>
+<td>Eu gosto bastante da interface do Firefox. Ela é muito parecida com a interface do do Chrome. A principal diferença é que eu acho o Chrome mais amigável, as cores costumam ser sempre um pouquinho mais claras. Até as cores escuras são um pouco mais claras e a borda de tudo é bem aradinho, o que dá a sensação de que é amigável. A interface do Firefox é um pouco mais escuro, um pouco mais sério e é tudo pontudo. Me dá essa sensação de seriedade, mas é uma interface bonita. Eu acho bem limpa. Talvez peque um pouco na parte intuitiva. Eu acho mais dificil encontrar alguma funcionalidade pelos ícones ou posicionamento.</td>
+</tr>
+</tbody>
+</table>
+<p>Após interromper a gravação, Carla levantou outros itens que ela acredita que o Firefox poderia melhorar. Não há opções de personalizar melhor as cores para daltônicos, ou melhorar o contraste para quem possui algum problema de visão. Além de que poderia ter outros temas que tornassem o navegador mais amigável e personalizado para o gosto de quem está usando.</p>
+<p><strong>Autor</strong>: <a href="https://github.com/kauaneiras">Kauan Eiras</a>, 2024.
+</center></p>
+<h2 id="entrevista-4">Entrevista 4</h2>
+<p>A quarta entrevista foi realizada no dia 14/04/2024 as 19h, com o <a href="https://www.linkedin.com/in/joseroberto0908/?originalSubdomain=br">José Roberto</a>, homem, 22 anos, estudante de Engenharia de Computação e estagiário na área de desenvolvedor full stack na Presidência da República. Questiona fortemente a simplicidade do Firefox, falando sobre recursos que podem acabar sendo exagerados, poluindo a interface e pesando o aplicativo. José conhece o Firefox, já utilizou e instalou o aplicativo para analisar antes da entrevista, mas seu principal navegador é o<a href="https://www.google.pt/intl/pt-PT/chrome/">Google Chrome</a>, tanto em seu computador como em seu celular.</p>
+<h3 id="video-entrevista-4">Vídeo - Entrevista 4</h3>
+<ul>
+<li>Caso não consiga assistir dentro da gitPages, <a href="https://www.youtube.com/watch?v=lXuBau7JaNA">Clique aqui</a></li>
+</ul>
+<p><center></p>
+<p><strong>Video 4</strong>: Entrevista José</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lXuBau7JaNA?si=qnBAv3o1KxlmZOEf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p><strong>Autor</strong>: <a href="https://github.com/kauaneiras">Kauan Eiras</a>, 2024.</p>
+<h3 id="tabela-5-transcricao-da-entrevista">Tabela 5: Transcrição da entrevista</h3>
+<table>
+<thead>
+<tr>
+<th>Pergunta</th>
+<th>Respostas do José</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>você já utilizou Firefox ou utiliza hoje em dia?</td>
+<td>Eu utilizava antigamente. Faz tempo que eu não utilizo. Eu tenho optado por usar o Chrome. Meu celular é um da xiaomi, então eu tenho preferência pelo Chrome tanto pela facilidade que eu tenho com ele como pela praticidade</td>
+</tr>
+<tr>
+<td>Por que você não aderiu o Firefox como primeiro navegador? Tem alguma coisa que você gosta mais no Chrome?</td>
+<td>Comecei a usar o Chrome quando entrou na moda. A Google tava lançando um navegador novo e tava todo mundo começando a usar, então foi mais pela força do ábito. O Explorer era mais lento. Na época eu via o Firefox como uma terceira opção. Eu usava às vezes quando eu tinha alguns problemas com o Chrome. Mas eu sempre usei o Chrome. Acho que mais por costume, não necessariamente pelo fato do navegador ser bom, mas por estar acostumado a usar ele. Também uso no celular por ele já vir baixado, o que facilita bastante.</td>
+</tr>
+<tr>
+<td>Teria alguma funcionalidade que se fosse implementada no Firefox você instalaria no seu celular?</td>
+<td>Eu acho que o primeiro ponto que ele teria que ter seria a sincronização com o Google, que facilita bastante podendo importar a barra de favoritos e podendo ver o histórico. Essas coisas facilitaria muito o uso dele. Eu não uso muito as funcionalidades específicas do Chrome, eu só uso ele: abro, pesquiso, faço o que eu quero e fecho, então assim eu creio que qualquer navegador consiga ter o que eu preciso. Acho que o Firefox não ter essa questão da sincronização atrapalha. Acho que é principalmente isso. Se ele puder garantir a segurança dos dados e essas coisas também seria bom. Então acho que essas duas coisas seria importante.</td>
+</tr>
+<tr>
+<td>Você considera a interface do Firefox bonita ou tem alguma coisa que te desagrada?</td>
+<td>Olhando por acho que talvez poderia deixar as coisas mais arredondadas. Tem essa opção aqui esquisita de pesquisar com alguma das opções de Google, Bing, DuckGo. Eu nunca vou usar isso, sempre vou pesquisar pelo Google. Eu vejo isso aqui como desnecessário, que só ocupa espaço.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Autor</strong>: <a href="https://github.com/kauaneiras">Kauan Eiras</a>, 2024.
+</center><br></p>
+<h2 id="resultado">Resultado</h2>
+<p>Após a realização da entrevista com o usuária e ex-usuárias do aplicativo da Firefox, foi possível elicitar os requisitos que serão apresentados abaixo na Tabela 6. Cada requisito é classificado por um sigla formada por "ENT" + um número, em que "ENT" é um sigla de entrevista, e para representar o tipo do requisito, será usado as siglas "RF" ou "RNF", que representam o tipo do requisito funcional ou não funcional. Além disso, será identificado se os requisitos já foram implementados ou não.</p>
+<p><center></p>
+<h3 id="tabela-6-requisitos-elicitados-na-entrevista">Tabela 6: Requisitos elicitados na Entrevista.</h3>
+<table>
+<thead>
+<tr>
+<th>Identificador</th>
+<th>Requisitos</th>
+<th>Tipo</th>
+<th>Implementado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ENT01</td>
+<td>Sincronização de dados com a conta do Google</td>
+<td>RF</td>
+<td>Não Implementado</td>
+</tr>
+<tr>
+<td>ENT02</td>
+<td>Bloqueio de anúncios</td>
+<td>RF</td>
+<td>Não Implementado</td>
+</tr>
+<tr>
+<td>ENT03</td>
+<td>Rede privada virtual (VPN)</td>
+<td>RF</td>
+<td>Não Implementado</td>
+</tr>
+<tr>
+<td>ENT04</td>
+<td>Ser mais leve que o Chrome</td>
+<td>RNF</td>
+<td>Implementado</td>
+</tr>
+<tr>
+<td>ENT05</td>
+<td>Acesso à sites acessados recentemente</td>
+<td>RF</td>
+<td>Implementado</td>
+</tr>
+<tr>
+<td>ENT06</td>
+<td>Temas mais arredondados</td>
+<td>RNF</td>
+<td>Não Implementado</td>
+</tr>
+<tr>
+<td>ENT07</td>
+<td>Temas para dautônicos</td>
+<td>RNF</td>
+<td>Não Implementado</td>
+</tr>
+<tr>
+<td>ENT08</td>
+<td>Capacidade de simular aplicações em outros navegadores</td>
+<td>RF</td>
+<td>Não Implementado</td>
+</tr>
+<tr>
+<td>ENT09</td>
+<td>Retirar excesso de funções que usuários não vão utilizar</td>
+<td>RNF</td>
+<td>Não Implementado</td>
+</tr>
+<tr>
+<td>ENT10</td>
+<td>Crianção de atalhos no inicio</td>
+<td>RF</td>
+<td>Implementado</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Autor</strong>: <a href="https://github.com/kauaneiras">Kauan Eiras</a>, 2024.
+</center><br></p>
+<h2 id="referencias">Referências</h2>
+<ol>
+<li><strong>VIANNA, Maurício; VIANNA, Ysmar; ADLER, Isabel K.; LUCENA, Brenda; RUSSO, Beatriz.</strong> <em>Design Thinking: Inovação em Negócios</em>. MJV Tecnologia Ltda, 2011.</li>
+<li><strong>BARBOSA, Simone; SILVA, Bruno.</strong> <em>Interação Humano-Computador e Experiência do Usuário</em>. 3 de maio de 2021.</li>
+<li><strong>Universidade Federal de Santa Catarina (UFSC).</strong> <em>Pesquisa sobre técnicas de elicitação de requisitos</em>, 2023. Disponível em: https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-observacao-direta. Acesso em: 14 abr. 2024.</li>
+</ol>
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th>Descrição</th>
+<th style="text-align: center;">Autor</th>
+<th style="text-align: center;">Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: center;">12/04/2024</td>
+<td>Descrição do método de Elicitação: Entrevista</td>
+<td style="text-align: center;"><a href="https://github.com/kauaneiras">Kauan Eiras</a></td>
+<td style="text-align: center;"><a href="https://github.com/kalipassos">Kallyne Macedo</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.1</td>
+<td style="text-align: center;">15/04/2024</td>
+<td>Adição da Metodologia e Desenvolvimento</td>
+<td style="text-align: center;"><a href="https://github.com/kauaneiras">Kauan Eiras</a></td>
+<td style="text-align: center;"><a href="https://github.com/west7">Guilherme Westphall</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.2</td>
+<td style="text-align: center;">15/04/2024</td>
+<td>Adição da Metodologia e Desenvolvimento</td>
+<td style="text-align: center;"><a href="https://github.com/kauaneiras">Kauan Eiras</a></td>
+<td style="text-align: center;"><a href="https://github.com/west7">Guilherme Westphall</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.3</td>
+<td style="text-align: center;">15/04/2024</td>
+<td>Adição da Entrevista 1: Natália</td>
+<td style="text-align: center;"><a href="https://github.com/kauaneiras">Kauan Eiras</a></td>
+<td style="text-align: center;"><a href="https://github.com/west7">Guilherme Westphall</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.4</td>
+<td style="text-align: center;">15/04/2024</td>
+<td>Adição da Entrevista 2: Amanda</td>
+<td style="text-align: center;"><a href="https://github.com/kauaneiras">Kauan Eiras</a></td>
+<td style="text-align: center;"><a href="https://github.com/west7">Guilherme Westphall</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.5</td>
+<td style="text-align: center;">15/04/2024</td>
+<td>Adição da Entrevista 3: Carla</td>
+<td style="text-align: center;"><a href="https://github.com/kauaneiras">Kauan Eiras</a></td>
+<td style="text-align: center;"><a href="https://github.com/west7">Guilherme Westphall</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.6</td>
+<td style="text-align: center;">15/04/2024</td>
+<td>Adição da Entrevista 4: José</td>
+<td style="text-align: center;"><a href="https://github.com/kauaneiras">Kauan Eiras</a></td>
+<td style="text-align: center;"><a href="https://github.com/west7">Guilherme Westphall</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.7</td>
+<td style="text-align: center;">17/04/2024</td>
+<td>Resultado</td>
+<td style="text-align: center;"><a href="https://github.com/kauaneiras">Kauan Eiras</a></td>
+<td style="text-align: center;"><a href="https://github.com/west7">Guilherme Westphall</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">1.9</td>
+<td style="text-align: center;">30/05/2024</td>
+<td>Correções</td>
+<td style="text-align: center;"><a href="https://github.com/kauaneiras">Kauan Eiras</a></td>
+<td style="text-align: center;"><a href="https://github.com/west7">Guilherme Westphall</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../brainstorming/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Brainstorming">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Brainstorming
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../observacao/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Observação">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Observação
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
